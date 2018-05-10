@@ -10,7 +10,7 @@ export class Drag extends React.Component{
                 <Draggable type="metal" data="silver"><li>Silver</li></Draggable>
             </ul>
             <Droppable
-                types={['fruit']} // <= allowed drop types
+                types={['fruit']} 
                 onDrop={this.onDrop.bind(this)}
             >
             </Droppable>
